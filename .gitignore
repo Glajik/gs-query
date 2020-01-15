@@ -1,0 +1,7 @@
+appsscript.json
+.clasp.json
+node_modules
+.vscode
+yarn.lock
+src/.clasp.json
+dist/.clasp.json
