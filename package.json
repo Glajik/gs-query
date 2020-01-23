@@ -2,7 +2,7 @@
   "name": "gs-query",
   "version": "1.0.0",
   "description": "LINQ-like collection management library for Google Apps Scripts",
-  "main": "src/query.js",
+  "main": "./query.js",
   "repository": "https://github.com/Glajik/gs-query.git",
   "author": "Viacheslav Glazhevskyi <glajik@gmail.com>",
   "license": "MIT",

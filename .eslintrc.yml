@@ -2,7 +2,10 @@ parserOptions:
   ecmaVersion: 6
   sourceType: module
 env:
-  node: commonjs
+  node: true
+  browser: true
+extends:
+  - 'airbnb-base'
 rules:
   object-shorthand: 0
   func-names: 0
@@ -13,7 +16,5 @@ rules:
   prefer-destructuring: 0
   object-curly-newline: 1
   no-underscore-dangle: 0
-  no-unused-vars:
-    - error
-    - varsIgnorePattern: _
+
 # root: true

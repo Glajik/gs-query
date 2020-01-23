@@ -17,23 +17,9 @@ If you don't have it, create it in the same folder where is `.clasp.json` file.
 Example of `.claspignore` file
 
 ```TEXT
-# Ignore submodule's files and bash scripts
-**/LICENSE
-**/*.md
-**/*.sh
-
-# Ignore any submodule's .json files
-**/*.json
-
-# But leave appsscript.json file of current project
-!appsscript.json
-
 # Ignore all submodule's folders, except 'dist'
-**/node_modules/**
-**/.git/**
-**/__tests__/**
-**/src/**
-!**/dist/**
+gs-query/**
+!**/*.js
 ```
 
 ### 3. Use it

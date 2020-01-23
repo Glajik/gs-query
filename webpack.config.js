@@ -6,7 +6,7 @@ module.exports = {
   // mode: 'development',
   mode: 'production',
   entry: {
-    query: './src/query.js',
+    query: './query.js',
   },
   output: {
     library: '[name]',
